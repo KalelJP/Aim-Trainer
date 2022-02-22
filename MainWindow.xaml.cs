@@ -40,8 +40,8 @@ namespace Ueb23a_Grafik_Maus
             circle.Fill = filling;
 
             // Setting circle on random position
-            Canvas.SetLeft(circle, RandomPosition(0, 733));
-            Canvas.SetTop(circle, RandomPosition(0,361));
+            Canvas.SetLeft(circle, RandomPosition(100, mainWindow.ActualWidth * 0.8));
+            Canvas.SetTop(circle, RandomPosition(100, mainWindow.ActualHeight * 0.8));
 
 
             // Display circle on canvas
