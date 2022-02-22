@@ -84,8 +84,7 @@ namespace Ueb23a_Grafik_Maus
         public void AverageReactionTime()
         {
             string sAvg = "Reaction time average: ";
-            double rTimes = reactionTimes.Sum();
-            double dAvg = Math.Round(rTimes / reactionTimes.Count, 3);
+            double dAvg = Math.Round(reactionTimes.Average(), 3);
             if (dAvg < 1)
             {
                 sAvg += (dAvg * 1000) + " milliseconds";
