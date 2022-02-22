@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ueb23a_Grafik_Maus"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" >
+        Title="MainWindow" Icon="pics/osu.ico" Height="450" Width="800" >
     <Canvas x:Name="myCanvas" Background="Black">
         <Label x:Name="lblreactionTime" Content=""
                Foreground="White"

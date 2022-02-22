@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="pics\osu.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="pics\osu.ico" />
+  </ItemGroup>
+
 </Project>
